@@ -35,7 +35,7 @@ if(isset($_POST) && count($_POST)>0){
 		<!-- Metadatos para el posicionador -->
 		<meta name="author" content="bricoware">
 		<meta name="description" content="Calculadora">
-		<meta name="keywords" content="Calculadora, ifcd0211">
+		<meta name="keywords" content="Calculadora, ifcd0211, practica">
 		
 		<!-- Metadatos del comportamiento responsive -->
 		<meta name="viewport" content="width:device-width; initial-scale:1.0">
