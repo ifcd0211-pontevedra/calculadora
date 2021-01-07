@@ -42,7 +42,7 @@ if(isset($_POST) && count($_POST)>0){
 	</head>
 	
 	<body>
-		
+		:Carlos Comesaña - 
 		<main>
 			<form id="calculadora" action="#" method="POST">
 				<div>
