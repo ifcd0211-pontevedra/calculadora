@@ -30,8 +30,7 @@ if(isset($_POST) && count($_POST)>0){
 
 	<head>
 		<meta charset="UTF-8">
-		<title>Calc</title>
-		
+		<title>Calculadora <small>mod. Antonio Presas</small></title>
 		<!-- Metadatos para el posicionador -->
 		<meta name="author" content="bricoware">
 		<meta name="description" content="Calculadora">
