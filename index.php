@@ -46,12 +46,12 @@ if(isset($_POST) && count($_POST)>0){
 		<main>
 			<form id="calculadora" action="#" method="POST">
 				<div>
-					<label for="num_1">Número 1:</label>
+					<label for="num_1">Número:</label>
 					<input type="number" id="num_1" name="num_1" value="<?php echo (isset($_POST['num_1']))? $_POST['num_1']:0; ?>" />
 				</div>
 				<div>
 				<div>
-					<label for="num_1">Número 2:</label>
+					<label for="num_1">Número:</label>
 					<input type="number" id="num_2" name="num_2" value="<?php echo (isset($_POST['num_2']))? $_POST['num_2']:0; ?>" />
 				</div>
 				<div>
@@ -64,7 +64,7 @@ if(isset($_POST) && count($_POST)>0){
 					<input type="submit" value="Calcular" />
 				</div>			
 				<div>
-					El resultado de la operación <?php echo (isset($operacion))? $operacion : "VACÍA"; ?> es igual a <input type="text" value="<?php echo $resultado;?>" />
+					El resultado de la operación <?php echo (isset($operacion))? $operacion : "VACÍA"; ?> = <input type="text" value="<?php echo $resultado;?>" />
 				</div>			
 			</form>
 		</main>
