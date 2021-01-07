@@ -61,7 +61,7 @@ if(isset($_POST) && count($_POST)>0){
 					<input type="radio" name="operacion" value="3" />División
 				</div>
 				<div>
-					<input type="submit" value="Calcular" />
+					<input type="submit" value="Callar" />
 				</div>			
 				<div>
 					El resultado de la operación <?php echo (isset($operacion))? $operacion : "VACÍA"; ?> es igual a <input type="text" value="<?php echo $resultado;?>" />
