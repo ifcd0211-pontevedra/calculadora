@@ -41,7 +41,8 @@ if(isset($_POST) && count($_POST)>0){
 		<meta name="viewport" content="width:device-width; initial-scale:1.0">
 	</head>
 	
-	<body>aaaaa
+	<body>
+		
 		<main>
 			<form id="calculadora" action="#" method="POST">
 				<div>
